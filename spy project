@@ -1,0 +1,53 @@
+import streamlit as st
+import  pandas  as pd
+import   json
+import  os
+import  datatime import datetime
+import   time
+import  random
+import  plotaly.express as px
+import  plotly.graph_objects as go
+from streamlit_lottie import st_lottie
+import  requests
+
+#set page confi
+st.set_page_config(
+    page_title="Personal librrary Management",
+    page_icon="📕",
+    layout="wide"
+    initial_sidebar_state="Expanded" 
+)
+
+#custom cs for styling
+st.markdown("""
+<style>
+     .main-header{
+            font=size:3rem! importanr;
+            color: #1E3A:
+            font-weight:700;
+            margin-bottom: 1rem;   
+            text-align: center;
+            text -shadow: 2px 2px 4px rgba(0,0,0,0.1);
+     }   
+    
+ .sub_header{
+        font-size:1.8rem ! important;
+        color:3882f6;
+        font-weight:600,
+        margin-top: lrem;
+        margin-bottom: 1rem;
+    }      
+     
+    .sucess-message{
+        padding-lrem;
+        background-color:#ECFD5;
+        border-left:5px solid#100981;
+        border-radius:0.375rem;
+    }
+           
+    .warning-message{       
+           padding:1rem;
+              background-color:#FFECB5;
+           
+           
+            """)
